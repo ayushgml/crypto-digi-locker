@@ -11,10 +11,11 @@
 <link rel="stylesheet" href="../public/css/sweet-alert.css" type="text/css">
 
 <script>
-
+Web3 = require('web3')
 var UserAddress="";
 
 window.addEventListener('load', async () => {
+
     if (window.ethereum) {
         window.web3 = new Web3(ethereum);
         try {
@@ -74,7 +75,7 @@ function AddUser()
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<img src="../public/img/1ID-logo.png">
+		<img width="50" src="../public/img/logo.png">
 	</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
